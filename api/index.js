@@ -28,7 +28,7 @@ app.use(cookieParser())
 app.use(express.json())
 
 app.use('/api/auth', authRoute);
-app.use('/api/user', userRoute);
+app.use('/api/user', userRoute)
 app.use('/api/hotel', hotelRoute);
 app.use('/api/room', roomRoute);
 
