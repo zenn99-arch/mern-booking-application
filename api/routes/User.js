@@ -17,15 +17,15 @@ const router = express.Router();
 // })
 
 //Update
-router.put('/:id',verifyUser, updateUser)
+router.put('/:id', updateUser)
 
 //Delete
 
-router.delete('/:id',verifyUser, deleteUser)
+router.delete('/:id', deleteUser)
 
 //Get
 
-router.get('/:id',verifyUser, getUser)
+router.get('/:id', getUser)
 
 //Get All
 
