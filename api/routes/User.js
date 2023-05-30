@@ -29,7 +29,7 @@ router.get('/:id',verifyUser, getUser)
 
 //Get All
 
-router.get('/',verifyAdmin, getAllUser)
+router.get('/', getAllUser)
 
 
 export default router
