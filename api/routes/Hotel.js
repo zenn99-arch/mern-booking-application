@@ -22,9 +22,9 @@ router.get('/find/:id', getHotel)
 //Get All
 
 router.get('/', getAllHotel);
-router.get('/countByCity', countByCity);
-router.get('/countByType', countByType);
-router.get('/room/:id', getHotelRooms);
+router.get('/countByCity', countByCity)
+router.get('/countByType', countByType)
+router.get('/room/:id', getHotelRooms)
 
 
 export default router
