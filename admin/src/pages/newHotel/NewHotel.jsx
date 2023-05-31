@@ -52,7 +52,7 @@ const NewHotel = () => {
         photos: list,
       };
 
-      await axios.post("/hotel", newhotel);
+      await axios.post("/hotel/new", newhotel);
     } catch (err) {console.log(err)}
   };
   return (
@@ -87,7 +87,7 @@ const NewHotel = () => {
                   onChange={(e) => setFiles(e.target.files)}
                   style={{ display: "none" }}
                 />
-              </div>
+              </div> 
 
               {hotelInputs.map((input) => (
                 <div className="formInput" key={input.id}>

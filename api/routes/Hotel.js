@@ -5,15 +5,15 @@ const router = express.Router();
 
 //Create
 
-router.post('/',verifyAdmin, createHotel)
+router.post('/', createHotel)
 
 //Update
 
-router.put('/find/:id',verifyAdmin, updateHotel)
+router.put('/find/:id', updateHotel)
 
 //Delete
 
-router.delete('/find/:id',verifyAdmin, deleteHotel)
+router.delete('/find/:id', deleteHotel)
 
 //Get
 
